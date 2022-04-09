@@ -1,0 +1,27 @@
+version: "3.7"
+services:
+ # Banco de dados usado pela aplicacao
+ mysql:
+  container_name: mysql_mercado_livro
+  image: mysql:latest 
+  environment:
+   MYSQL_ROOT_PASSWORD: root
+   MYSQL_DATABASE: "mercadoLivro"
+  ports:
+   - 3306:3306
+
+ rabbitmq:
+  image: rabbitmq:3-management
+  container_name: 'rabbitmq_ML'
+  ports:
+   - 5672:5672
+   - 15672:15672
+  volumes:
+   - ~/.docker-conf/rabbitmq/data/:/var/lib/rabbitmq/
+   - ~/.docker-conf/rabbitmq/log/:/var/log/rabbitmq
+  networks:
+   - rabbitmq_go_net
+
+networks:
+ rabbitmq_go_net:
+  driver: bridge
