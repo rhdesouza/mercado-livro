@@ -1,9 +1,6 @@
 
 ;
 gradlew.bat,2\a\2a45a911a8f1836b0b6c5b758962572012d8f8c3
-:
-
-.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 7
 gradlew,5\b\5bbfa66edb4db3c7c33c5181f43510990d3307f9
 q
@@ -38,13 +35,3 @@ B
 build.gradle.kts,d\b\dbcff70658daf80b53ce624f6adcaa529df5ed8d
 g
 7src/main/kotlin/com/mercadolivro/service/BookService.kt,6\8\685739096b3e3dde98ab9961c743da5490479559
-g
-7src/main/kotlin/com/mercadolivro/infra/RabbitService.kt,b\a\ba97dbefd02ea2bb86d88e0b306df4b92190389a
-h
-8src/main/kotlin/com/mercadolivro/infra/RabbitConsumer.kt,0\1\013b578b7a770b93070577144fa529cb9a129126
-k
-;src/main/kotlin/com/mercadolivro/MercadoLivroApplication.kt,e\3\e359fc67b259725b42d0537e361ba3d5008eac17
-k
-;src/main/kotlin/com/mercadolivro/service/CustomerService.kt,e\2\e236c7b871a6ef76e62355bbf7238f7f739e8d96
-`
-0src/main/kotlin/com/mercadolivro/infra/Config.kt,4\6\46f28d2db7e12ff050bbd1b50012858e698643fc
