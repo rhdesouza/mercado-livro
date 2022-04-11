@@ -27,11 +27,10 @@ w
 Gsrc/main/kotlin/com/mercadolivro/extension/ConverterExtesionFunction.kt,a\2\a24fb476041321c76af0c0a527a8a9c9e3f3b05b
 g
 7src/main/kotlin/com/mercadolivro/model/CustomerModel.kt,e\e\eefec0a04475a1a3fb7c2619c455f7be1628b2a4
-q
-Asrc/main/kotlin/com/mercadolivro/controller/CustomerController.kt,0\1\01bd48840d2376bf423e11d7dd8e9955b8ce65fb
 B
 docker-compose.yml,3\5\35b8c13cf2eb2a194eada000eb310d65aed53b2a
 @
 build.gradle.kts,d\b\dbcff70658daf80b53ce624f6adcaa529df5ed8d
-g
-7src/main/kotlin/com/mercadolivro/service/BookService.kt,6\8\685739096b3e3dde98ab9961c743da5490479559
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
