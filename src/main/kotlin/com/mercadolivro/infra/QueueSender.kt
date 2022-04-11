@@ -16,7 +16,7 @@ class QueueSender {
     private val queue: Queue? = null
 
     fun sendCustomer(order: String) {
-        rabbitTemplate!!.convertAndSend("customer-exchage", "customer-exchage-customerFila", order);
+        rabbitTemplate!!.convertAndSend("customer-exchage", "customer-queue-key", order);
         println("Enviado para o Rabbit")
     }
 }

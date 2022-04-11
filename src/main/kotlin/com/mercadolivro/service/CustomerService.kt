@@ -18,7 +18,7 @@ class CustomerService(
     }
 
     fun create(customer: CustomerModel) {
-        var newCustomer = customerRepository.save(customer)
+        //var newCustomer = customerRepository.save(customer)
         queueSender.sendCustomer(customer.toString());
     }
 
